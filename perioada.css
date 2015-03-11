@@ -1,0 +1,7 @@
+body{
+    font-family:Segoe UI;
+    font-size:15px;
+  background-image:-webkit-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+    background-image: -moz-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+   }
+ .tabel th{background-color: #FFFFE0; }  

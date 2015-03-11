@@ -1,0 +1,86 @@
+body{
+    font-family:Segoe UI;
+    font-size:15px;
+  background-image:-webkit-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+    background-image: -moz-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+   }
+#denumire{
+    margin-left:200px;
+    margin-top:10px;
+    font-size:30px;
+    color:#228B22;
+    width:160px;
+    height:50px;} 
+#denumire_poza{
+   margin-left:370px;
+     margin-top:-48px;
+   font-size:30px;
+   color:#228B22;
+   position:relative;
+   float:left;
+   width:170px;
+    height:40px;}    
+#baraOrizontala{
+    margin-left:200px; 
+    margin-right:200px;
+    margin-top:5px;
+    height:30px;
+    }
+#menu ul{
+    margin:0px;
+    padding:0px;
+    line-height:25px;
+    }
+#menu li{
+    float:left;
+    list-style-type:none;
+    position:relative;
+    margin-right:1px;
+    }
+#menu ul li a{
+    text-decoration:none;
+    width:114.89px;
+    height:26px;
+    display:block;
+    color:white;
+    text-align:center;
+    background-color:#008000
+
+; 
+    }
+#menu ul ul li a{
+    text-decoration:none;
+    width:170px;
+    height:26px;
+    display:block;
+    background-color:#008000; 
+    color:white;
+    text-align:left; 
+    }
+#menu ul ul{
+    position:absolute;
+    top:26px;
+    visibility:hidden; 
+    }
+#menu ul li:hover ul{
+    visibility:visible;
+    }
+#menu ul li:hover {
+    background-color:#FFFFE0;
+    color:#008000;
+    }
+#menu ul li a:hover{
+    color:#008000;
+    background-color:#FFFFE0;
+    } 
+#menu ul li:hover ul :hover{ color:#008000;
+    background-color:#FFFFE0;
+    }
+#mesaj {  margin-left:200px; 
+          margin-top: 20px;}
+#mesaj1 {  margin-left:200px; 
+          margin-top: 20px;
+color:red;}
+#mesaj2 {  margin-left:200px; 
+          margin-top: 20px;
+color:red;}

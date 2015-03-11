@@ -1,0 +1,178 @@
+body{
+    font-family:Segoe UI;
+    font-size:15px;
+    background-image:-webkit-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+    background-image: -moz-linear-gradient( bottom, #C7FFC7,#CCFFCC); 
+   }
+ #denumire{
+    margin-left:200px;
+    margin-top:10px;
+    font-size:30px;
+    color:#228B22;
+    width:160px;
+    height:50px;} 
+#denumire_poza{
+   margin-left:370px;
+     margin-top:-48px;
+   font-size:30px;
+   color:#228B22;
+   position:relative;
+   float:left;
+   width:170px;
+    height:40px;}     
+#baraOrizontala{
+    margin-left:200px; 
+    margin-right:200px;
+    margin-top:5px;
+    height:30px;
+    }
+#menu ul{
+    margin:0px;
+    padding:0px;
+    line-height:25px;
+    }
+#menu li{
+    float:left;
+    list-style-type:none;
+    position:relative;
+    margin-right:1px;
+    }
+#menu ul li a{
+    text-decoration:none;
+    width:114.89px;
+    height:26px;
+    display:block;
+    color:white;
+    text-align:center;
+    background-color:#008000; 
+    }
+#menu ul ul li a{
+    text-decoration:none;
+    width:170px;
+    height:26px;
+    display:block;
+    background-color:#008000; 
+    color:white;
+    text-align:left; 
+    }
+#menu ul ul{
+    position:absolute;
+    top:26px;
+    visibility:hidden; 
+    }
+#menu ul li:hover ul{
+    visibility:visible;
+    }
+#menu ul li:hover {
+    background-color:#FFFFE0;
+    color:#008000;
+    }
+#menu ul li a:hover{
+    color:#008000;
+    background-color:#FFFFE0;
+    } 
+#menu ul li:hover ul :hover{ color:#008000;
+    background-color:#FFFFE0;
+    }
+#header{
+    margin-right:218px;
+    height:35px;
+    margin-top:-23px;
+    margin-left:200px;
+    color:#228B22;
+    background-color:#FFFF00;
+    padding:0px 0px 0px 34px;
+    }
+#container{
+    margin-left:200px;
+    margin-right:200px;
+    }
+    
+    
+#oferta{
+    width:100%;
+    height:90%;
+    position:relative;
+    float:left;
+    margin-left:-37px;
+    margin-top:20px; 
+    font-family: Segoe UI;
+    font-size:15px;
+    }
+#continut{   
+    width:100%;
+    position:relative;
+    float:left;
+    margin-top:-100px;
+    margin-left:200px;
+    font-family: Segoe UI;
+    font-size:15px;}
+
+
+
+
+
+#header1{color:#228B22;
+margin-top:50px;
+    height:30px;}
+
+.tabel{border-collapse:collapse; }
+.tabel th{background-color: #FFFFE0; }
+#oferta{
+    margin-left:0px; 
+    margin-right:200px;
+    margin-top:200px;
+    height:30px;
+    }
+#oferta1 ul{
+    margin:0px;
+    padding:0px;
+    line-height:25px;
+    margin-top:-150px;
+    }
+#oferta1 li{
+    float:left;
+    list-style-type:none;
+    position:relative;
+    margin-right:1px;
+    
+    }
+#oferta1 ul li a{
+    text-decoration:none;
+    width:300px;
+    height:26px;
+    display:block;
+    color:white;
+    text-align:center;
+    background-color:#008000; 
+    }
+#oferta1 ul ul li a{
+    text-decoration:none;
+    width:170px;
+    height:26px;
+    display:block;
+    background-color:#008000; 
+    color:white;
+    text-align:left; 
+    }
+#oferta1 ul ul{
+    position:absolute;
+    top:26px;
+    visibility:hidden; 
+    }
+#oferta1 ul li:hover ul{
+    visibility:visible;
+    }
+#oferta1 ul li:hover {
+    background-color:#FFFFE0;
+    color:#008000;
+    }
+#oferta1 ul li a:hover {
+    color:#008000;
+    background-color:#FFFFE0;
+    } 
+#oferta1 ul li:hover ul :hover{ color:#008000;
+    background-color:#FFFFE0;
+    }
+    
+#oferta1{ background-color:red;}
