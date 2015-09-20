@@ -7,23 +7,33 @@
         <script type="text/javascript"src="index.js"></script> 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script> 
         <script type="text/javascript">
-             var imagecount = 1;
-             var total = 5;
-             
-             function slide(x) {
-             var Image = document.getElementById('img');
-             imagecount = imagecount + x;
-             if(imagecount > total) {imagecount= 1;}
-             if(imagecount < 1) {imagecount= total;}
-             Image.src ="poze/imagine_index" + imagecount + ".jpg";}
-         
-             window.setInterval(
-             function slideA() {
-             var Image = document.getElementById('img');
-             imagecount = imagecount + 1;
-             if(imagecount > total) {imagecount= 1;}
-             if(imagecount < 1) {imagecount= total;}
-             Image.src ="poze/imagine_index" + imagecount + ".jpg";},3000);
+            var imagecount = 1;
+            var total = 5;
+
+            function slide(x) {
+                var Image = document.getElementById('img');
+                imagecount = imagecount + x;
+                if (imagecount > total) {
+                    imagecount = 1;
+                }
+                if (imagecount < 1) {
+                    imagecount = total;
+                }
+                Image.src = "poze/imagine_index" + imagecount + ".jpg";
+            }
+
+            window.setInterval(
+                    function slideA() {
+                        var Image = document.getElementById('img');
+                        imagecount = imagecount + 1;
+                        if (imagecount > total) {
+                            imagecount = 1;
+                        }
+                        if (imagecount < 1) {
+                            imagecount = total;
+                        }
+                        Image.src = "poze/imagine_index" + imagecount + ".jpg";
+                    }, 3000);
         </script>
     </head>
     <body onLoad="slideA()">
@@ -53,7 +63,7 @@
                     <li><a href="">Atractii turistice</a></li> 
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
-                <script type="text/javascript"src="index.js"></script> 
+               
 
             </div>
         </div>     
