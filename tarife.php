@@ -126,3 +126,8 @@ echo "</div>";
 
 ?>
 
+<?php
+
+include("counter.php");
+
+?>
